@@ -1,0 +1,101 @@
+.wrapper {
+	display: none;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+@import 'https://fonts.googleapis.com/css?family=Iceland';
+
+html, body
+{
+  width: 100%;
+  height: 100%;
+}
+
+html { min-height: 100%; }
+body { font-family: 'Roboto Condensed', sans-serif; }
+
+.wrapper
+{
+  min-height: 100%;
+  height: auto;
+  max-width: 689px;
+  margin: 0 auto;
+}
+
+
+
+.timer
+{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+
+.choices
+{
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 0;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #111;
+}
+
+.choices:hover
+{
+  background-color: #111;
+  color: #fff;
+}
+
+.startGame
+{
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#doneButton
+{
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+
+
+
+footer
+{
+  color: #fff;
+  font-size: 12px;
+  margin-top: 50px;
+  height: 75px;
+}
+
+.message {
+	font-size: 30px;
+}
+
+  
+
